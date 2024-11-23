@@ -1,6 +1,6 @@
 ## Overview 🔮
 
-The system recognizes handwritten equations or inequalities, parses them into algebraic expressions, and solves them using Reverse Polish Notation (RPN). It also generates graphical representations of the equations and their solutions.
+The system recognizes handwritten equations or inequalities, parses them, and solves them using Reverse Polish Notation. It also generates steps for the resolution and graphical representations of the equations.
 
 ## How It Works 🧠
 
