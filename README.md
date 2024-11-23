@@ -1,7 +1,3 @@
-# Handwritten Equation Solver
-
-This system interprets and solves first-degree equations and inequalities from handwritten text using image processing, machine learning models, and computational algorithms.
-
 ## Overview 🔮
 
 The system recognizes handwritten equations or inequalities, parses them into algebraic expressions, and solves them using Reverse Polish Notation (RPN). It also generates graphical representations of the equations and their solutions.
@@ -13,7 +9,7 @@ The system recognizes handwritten equations or inequalities, parses them into al
 <img width="100%" alt="Input" src="https://github.com/user-attachments/assets/c2d9b36c-e608-4925-96e0-fa9345e88397">
 
 ### 2. Text Recognition Using ML Model
-- A **RandomForestClassifier** trained on the **MNIST** dataset transcribes the segmented characters into text. Over time, the model can be improved by manually correcting outputs, allowing retraining with corrected data for better accuracy.
+- A **RandomForestClassifier** trained on the **MINST** dataset transcribes the segmented characters into text. Over time, the model can be improved by manually correcting outputs, allowing retraining with corrected data for better accuracy.
 
 ### 3. Equation Parsing
 > Due to lack of dataset, I used `w` as the variable, `//` as `<`, and `///` as `>`
